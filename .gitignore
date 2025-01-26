@@ -1,0 +1,71 @@
+# General OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Java-specific files
+target/
+out/
+*.iml
+*.iws
+*.ipr
+*.class
+
+# IDE specific
+/.classpath
+/.project
+/.settings/
+
+# VS Code specific
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA specific
+.idea/
+*.ipr
+*.iws
+.idea/**
+*.iml
+
+# Maven specific
+.mvn/
+**/target/
+
+# Gradle specific
+.gradle/
+/build/
+
+# Mac-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Generated file artifacts
+*.log
+*.bak
+*.swp
+
+# Other files
+*.temp
+*.tmp
+*.out
+*.bak
+*.pid
+*.seed
+*.backup
