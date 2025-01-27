@@ -19,9 +19,10 @@ public class Scraper {
             final HttpRequest r = HttpRequest.newBuilder()
                 .uri(new URI(url))
                 .build();
-            final HttpResponse res = _client.send(r, BodyHandlers.ofString());
+            final HttpResponse<String> res = _client.send(r, BodyHandlers.ofString());
             if (res.statusCode() < 400) {
                 final String[] links = HyperlinkFinder.findLinks(res.body().toString());
+                // Just print out the links.
                 Arrays.stream(links)
                     .forEach(link -> System.out.println(link));
             }

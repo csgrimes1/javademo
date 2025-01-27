@@ -1,5 +1,6 @@
 ### Java Demo
 
-Implements a quick web crawler based on loading a document and scraping
-out link hrefs. Just an exercise to immerse in Java after years spent
-with other languages.
+Implements a low budget page scraper, looking for URLs embedded
+in `<a href"http://url.com">hyperlinks</a>`.
+
+
